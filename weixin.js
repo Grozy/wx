@@ -27,7 +27,7 @@ module.exports.replay = function *(next) {
       if (eventKey) {
         console.log('扫二维表进来：' + eventKey + ' ' + ticket);
       }
-      this.body = '您好，十分感谢关注“神驰摩配商行”公众号，希望您在此可以得到更有用的信息和帮助。';
+      this.body = '您好，十分感谢关注“神驰摩托车配件”公众号，希望您在此可以得到更有用的信息和帮助。';
     } else if (event === 'unsubscribe') {
       console.log('无情取关');
     } else if (event === 'LOCATION') {
