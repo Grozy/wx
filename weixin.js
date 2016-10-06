@@ -124,8 +124,6 @@ module.exports.replay = function *(next) {
         type: 'video',
         media_id: data.media_id
       }
-    } else {
-      replay = "额，你说的:" + content + "，这句话太复杂了，我听不懂";
     }
     console.log(replay);
     this.body = replay;
